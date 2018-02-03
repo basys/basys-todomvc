@@ -1,11 +1,12 @@
 {
   "apps": {
-    "web": {
+    "todomvc": {
       "type": "web",
       "styles": [
         "todomvc-app-css/index.css",
       ],
       "favicon": false,
+      "testBrowsers": ["chrome"],
     },
   },
   "appBuilder": {},

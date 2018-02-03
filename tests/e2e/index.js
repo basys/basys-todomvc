@@ -1,6 +1,6 @@
 import {Selector} from 'testcafe';
 
-fixture('Index page').page('http://localhost:8080'); // BUG: retrieve url from configs
+fixture('Index page').page(`http://${basys.config.host}:${basys.config.port}`);
 
 test('Add item', async t => {
   await t
