@@ -5,7 +5,6 @@
       "styles": [
         "todomvc-app-css/index.css",
       ],
-      "favicon": false,
       "testBrowsers": ["chrome"],
     },
   },
