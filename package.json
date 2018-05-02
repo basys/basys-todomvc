@@ -9,7 +9,7 @@
     "todomvc-app-css": "^2.1.0"
   },
   "devDependencies": {
-    "basys": "~0.3.5"
+    "basys": "~0.4.0"
   },
   "engines": {
     "node": ">= 8.9"
