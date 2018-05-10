@@ -1,8 +1,15 @@
 # Basys TodoMVC Example
-Based on [Vue.js TodoMVC Example](https://github.com/tastejs/todomvc/tree/master/examples/vue). To run the example:
 
-```sh
-npm install -g basys-cli
-basys init basys/basys-todomvc # Scaffold the project
-basys dev # Launch the dev server
+This is a Basys project starter template based on [Vue.js TodoMVC Example](https://github.com/tastejs/todomvc/tree/master/examples/vue). To use it follow [these steps](https://basys.io/docs/getting-started).
+
+To start a development server run
+```bash
+# If basys-cli is installed globally
+basys dev
+
+# Or
+npm run basys dev
+yarn basys dev
 ```
+
+Other CLI commands are described in the [documentation](https://basys.io/docs/cli).
